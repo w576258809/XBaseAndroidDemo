@@ -1,13 +1,18 @@
 package com.hengyi.xbaseandroiddemo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.hengyi.baseandroidcore.utilscode.LogUtils;
 
+public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        LogUtils.d("安装日志","XBaseAndroid初始化成功");
+    }
+
+    @Override
+    public int setContentView() {
+        return R.layout.activity_main;
     }
 }
