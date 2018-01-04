@@ -10,13 +10,14 @@
         android:supportsRtl="true"
         android:name="com.hengyi.baseandroidcore.base.XBaseApplication"
         android:theme="@style/NoActionBarTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.DialogActivity"></activity>
     </application>
 
 </manifest>

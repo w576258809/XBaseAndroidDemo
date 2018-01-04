@@ -30,4 +30,5 @@ dependencies {
     compile 'com.github.fanhua1994:XBaseAndroid:1.0.4'
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.github.fanhua1994:DzValidation:1.0.0'
 }

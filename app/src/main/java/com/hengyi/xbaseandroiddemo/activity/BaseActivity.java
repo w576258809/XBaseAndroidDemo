@@ -1,8 +1,12 @@
-package com.hengyi.xbaseandroiddemo;
+package com.hengyi.xbaseandroiddemo.activity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import com.hengyi.baseandroidcore.base.XBaseActivity;
+import com.hengyi.baseandroidcore.statusbar.StatusBarCompat;
+import com.hengyi.baseandroidcore.utils.ColorUtils;
+import com.hengyi.xbaseandroiddemo.R;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -12,6 +16,7 @@ public abstract class BaseActivity extends XBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        StatusBarCompat.setStatusBarColor(this, Color.parseColor(ColorUtils.changeColor(this, R.color.main_color)));
         unbind = ButterKnife.bind(this);
     }
 
