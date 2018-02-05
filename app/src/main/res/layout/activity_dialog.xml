@@ -23,11 +23,35 @@
             android:orientation="vertical"
             >
             <Button
-                android:id="@+id/btn_dialog"
+                android:id="@+id/btn_alert_dialog"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="弹窗控件演示"
+                android:text="弹出确认框"
+                />
+
+            <Button
+                android:id="@+id/btn_confirm_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="弹出输入框"
+                />
+
+            <Button
+                android:id="@+id/btn_loading_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="弹出加载框"
+                />
+
+            <Button
+                android:id="@+id/btn_de_loading_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="弹出默认加载框"
                 />
         </LinearLayout>
 
