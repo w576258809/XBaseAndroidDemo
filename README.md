@@ -1,10 +1,7 @@
 # XBaseAndroid
 项目地址：[https://github.com/fanhua1994/XBaseAndroid](https://github.com/fanhua1994/XBaseAndroid)
 
-# 联系作者
-简书：[http://www.jianshu.com/u/50c9e5f00da3](http://www.jianshu.com/u/50c9e5f00da3)
-
-CSDN：[http://blog.csdn.net/dong_18383219470?viewmode=list](http://blog.csdn.net/dong_18383219470?viewmode=list)
+最新文档将不再此处更新，此处文档任然有效。最新的功能将在https://www.jianshu.com/nb/20489476更新。
 
 > 需要提交代码的朋友请邮箱联系并附上代码即可：90fanhua@gmail.com
 
